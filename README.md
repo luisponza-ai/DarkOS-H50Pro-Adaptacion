@@ -47,6 +47,62 @@ Antes de perder completamente la tarjeta se realizaron respaldos mediante imagen
 
 ---
 
+# Entorno de trabajo
+
+Este proyecto utiliza dos sistemas operativos debido a que cada uno cumple con funciones especificas denro del proceso de adaptacion de DarkOS para la consola H50 Pro.
+
+# Windows
+
+Windows es utilizado principalmenta para las tareas relacionadas con herramientas graficas y gestion inicial de medios de almacenamiento. 
+
+Entre las actividades realizadas desde este sistema se encuentran:
+
+-Creacion de respaldos mediante herramientas como Win 32 Disk imager.
+-Uso de herramientas especificas para tarjetas microSD
+-Preparacion inicial de la tarjeta mediante SD Card Formatter.
+-Gestion de archivos accesibles desde particiones compatibles con Windows (EasyROOM, donde se encuentran los emuladores y juegos)
+
+Windows es utilizado en las primeras etapas del proceso debido a la disponibilidad de herramientas especificas para trabajar con tarjetas SD y respaldos de imahenes.
+
+# Linux
+
+Linux es utilizado para las tareas relacionadas con diagnosticos, analisis y modificaciones del sistema. 
+
+Entre las actividades realizadas desde este sistema se encuentran:
+
+- Analisis de partiiones y sisteas de archivos
+- Revision de estructura interna de la tarjeta microSD.
+- Montaje y exploracion de particiones Linux
+- Trabajo con archivos del sistema.
+- Modificaciones y compilaciones de archivos relacionados con DTB
+- Herramientas de desarrollo y documentacion del proyecto.
+
+Linux permite trabajar con mayor profundidad sobre las estructiras internas del sistema operatio utilizado por la consola.
+ 
+---
+
+# Flujo de trabajo 
+
+Windows 
+|
+|- Preoaracion inicial de SD
+|
+|- Respaldos
+|
+|- Herramientas graficas
+|
+Terjeta microSD
+|
+Linux (en mi caso kali)
+|
+|- Diagnostico
+|
+|- Modificacion del sistema
+|
+|- Desarrollo y pruebas
+
+---
+
 ## Estado del proyecto
 
 Actualmente el proyecto se encuentra en fase de documentación y reconstrucción desde cero.
