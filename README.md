@@ -24,6 +24,20 @@ La documentación busca servir como referencia para usuarios que presenten probl
 
 ---
 
+## Créditos y proyecto base
+
+Este proyecto utiliza como base el sistema operativo dArkOS desarrollado por Christian Haitian (@christianhaitian).
+
+dArkOS es un proyecto orientado a consolas portátiles retro basado en ArkOS, cuyo desarrollo incluye adaptaciones, configuraciones y mejoras enfocadas en diferentes plataformas de hardware.
+
+El presente repositorio no pretende sustituir ni reclamar la autoría del sistema original. Su objetivo es documentar el proceso de adaptación realizado específicamente para la consola H50 Pro basada en arquitectura RK3326.
+
+Los cambios, pruebas, configuraciones, documentación y archivos generados durante este proceso corresponden únicamente a la adaptación realizada en este proyecto.
+
+Se recomienda consultar siempre el repositorio oficial del proyecto dArkOS para obtener la versión original y conocer sus condiciones de uso.
+
+---
+
 ## Hardware utilizado
 
 **Consola:**
@@ -126,6 +140,10 @@ Si este proyecto resulta útil y deseas apoyar su desarrollo, próximamente se a
 
 ---
 
-## Licencia
+## Licencias y derechos de autor
 
-Pendiente de definir.
+Los derechos correspondientes al sistema dArkOS, sus componentes originales y archivos desarrollados por terceros pertenecen a sus respectivos autores.
+
+Este repositorio contiene documentación propia, procedimientos de adaptación, configuraciones de prueba y registros del proceso realizado para la consola H50 Pro.
+
+Antes de redistribuir archivos originales del sistema, se recomienda verificar las condiciones de licencia establecidas por sus respectivos autores.

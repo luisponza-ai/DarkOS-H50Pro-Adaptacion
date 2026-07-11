@@ -1,12 +1,12 @@
 # Adaptacion de DarkOS para consola H50 Pro
 
-##Introduccion
+## Introduccion
 
 Este proyeto tiene como objetivo la adaptacion y documentacion del proceso llevado a cabo para la configuracion de DarkOS en una consola H50 Pro la cual se basa en la arquitectura con la que se contadaba RK3326.
 
 La finalidad es obtener un sistema el cual sea funcional, estable y reproducible, dejando registros de todas las modificaciones realizadas para facilitar futuras instalaciones y servir como una referencia para otros usuarios con el mismo hardware o similares.
 
-##Inicio del proyecto
+## Inicio del proyecto
 
 En un principio la consola H50 Pro dejo de dar imagen, lo cual llevo a realizar diagnosticos. Se determino que la memoria SD original presento daños, asi como la estructura de la tarjeta quedo afectada y no fue posible su reconstruccion. Antes de volverse inutilizable se realizo una copia de seguridad de las dos particiones que es factible observar en Windows. 
 
